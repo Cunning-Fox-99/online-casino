@@ -313,6 +313,8 @@ body {
     height: 36px;
     margin-bottom: 17px;
 
+    font-weight: 600;
+
     border: 2px dashed #9196ab;
 }
 
