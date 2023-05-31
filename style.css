@@ -191,7 +191,7 @@ body {
     display: none;
     position: absolute;
     top: 120%;
-    left: -80%;
+    left: -100px;
 
     width: fit-content;
     padding: 20px 12px 20px 20px;
