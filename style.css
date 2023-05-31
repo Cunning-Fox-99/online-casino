@@ -385,6 +385,7 @@ body {
 
     .list__item-column--3 {
         order: 3;
+        position: relative;
     }
 
     .list__item-column--4 {
@@ -397,5 +398,21 @@ body {
     
     .list__item-info {
         text-align: center;
+        position: static;
+    }
+
+    .popup {
+        left: 0;
+    }
+    
+    .popup__column {
+        text-align: left;
+    }
+}
+
+@media (max-width: 370px) {
+    .popup {
+        left: -30px;
+        padding-left: 10px;
     }
 }
